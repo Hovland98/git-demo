@@ -91,8 +91,9 @@ Merge changes from another branch into current branch:
 ```bash
 git switch <merge_to_branch>
 git merge <merge_from_branch> -m "<message>"
-Fetch updates from remote repo:
 ```
+
+Fetch updates from remote repo:
 
 ```bash
 git fetch
