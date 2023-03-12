@@ -25,3 +25,21 @@ Commit changes:
 ```bash
 git commit -m "<message>"
 ```
+
+List remote repos (your repo is usually called `origin`):
+
+```bash
+git remote
+```
+
+Stash away changes that you want to keep for later but don't want to commit yet:
+
+```bash
+git stash
+```
+
+Apply the changes that you stashed away:
+
+```bash
+git stash apply
+```
