@@ -32,24 +32,6 @@ Switch to branch:
 git switch <branch_name>
 ```
 
-List local branches:
-
-```bash
-git branch
-```
-
-List remote branches:
-
-```bash
-git branch -r
-```
-
-Create a new branch:
-
-```bash
-git branch <branch_name>
-```
-
 List changed files:
 
 ```bash
