@@ -61,3 +61,10 @@ Apply the changes that you stashed away:
 ```bash
 git stash apply
 ```
+
+Merge changes from another branch into current branch:
+
+```bash
+git switch <merge_to_branch>
+git merge <merge_from_branch> -m "<message>"
+```
