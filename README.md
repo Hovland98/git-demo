@@ -5,7 +5,31 @@
 Clone repo (copy repo to local machine):
 
 ```bash
-git clone <repo_url>
+git clone <repo_link>
+```
+
+List local branches:
+
+```bash
+git branch
+```
+
+List remote branches:
+
+```bash
+git branch -r
+```
+
+Create a new branch:
+
+```bash
+git branch <branch_name>
+```
+
+Switch to branch:
+
+```bash
+git switch <branch_name>
 ```
 
 List local branches:
@@ -67,4 +91,9 @@ Merge changes from another branch into current branch:
 ```bash
 git switch <merge_to_branch>
 git merge <merge_from_branch> -m "<message>"
+Fetch updates from remote repo:
+```
+
+```bash
+git fetch
 ```
