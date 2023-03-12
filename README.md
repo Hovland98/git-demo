@@ -8,6 +8,24 @@ Clone repo (copy repo to local machine):
 git clone <repo_url>
 ```
 
+List local branches:
+
+```bash
+git branch
+```
+
+List remote branches:
+
+```bash
+git branch -r
+```
+
+Create a new branch:
+
+```bash
+git branch <branch_name>
+```
+
 List changed files:
 
 ```bash
