@@ -26,6 +26,12 @@ Create a new branch:
 git branch <branch_name>
 ```
 
+Switch to branch:
+
+```bash
+git switch <branch_name>
+```
+
 List changed files:
 
 ```bash
