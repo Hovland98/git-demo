@@ -61,3 +61,9 @@ Apply the changes that you stashed away:
 ```bash
 git stash apply
 ```
+
+Fetch updates from remote repo:
+
+```bash
+git fetch
+```
